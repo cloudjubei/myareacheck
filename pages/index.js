@@ -25,6 +25,7 @@ export default function Home({ allCitiesData }) {
   )
 }
 
+
 export async function getStaticProps() {
   const allCitiesData = getCitiesData()
   return {
