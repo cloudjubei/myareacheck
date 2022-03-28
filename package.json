@@ -8,7 +8,7 @@
     "start": "next start -p $PORT"
   },
   "engines": {
-    "node": "10"
+    "node": "17"
   },
   "repository": {
     "type": "git",
