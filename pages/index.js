@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getCitiesData } from '../lib/cities'
-import Date from '../components/date'
 import Footer from '../components/footer'
 
 export const siteTitle = 'Your Area Check'

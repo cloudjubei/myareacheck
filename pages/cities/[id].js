@@ -1,17 +1,14 @@
 import Head from 'next/head'
-import Date from '../../components/date'
+import { getAllCitiesIds, getCityData } from '../../lib/cities'
 
 export default function City({ cityData }) {
   return (
     <div>
       <Head>
-        <title>{cityData.title}</title>
+        <title>{cityData.name}</title>
       </Head>
       <article>
-        <h1>{cityData.title}</h1>
-        <div>
-          <Date dateString={cityData.date} />
-        </div>
+        <h1>{cityData.name}</h1>
         <div dangerouslySetInnerHTML={{ __html: cityData.contentHtml }} />
       </article>
     </div>
@@ -27,10 +24,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getCityData(params.id)
+  const cityData = await getCityData(params.id)
   return {
     props: {
-      postData
+      cityData
     }
   }
 }

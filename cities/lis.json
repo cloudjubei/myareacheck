@@ -1,12 +1,12 @@
 {
-  name: "Lisboa",
-  origin: {
-    latitude: "-0.3",
-    longitude: "-0.3"
+  "name": "Lisboa",
+  "origin": {
+    "latitude": "-0.3",
+    "longitude": "-0.3"
   },
-  parks: [],
-  busStops: [],
-  kindergartens: [],
-  lakes: [],
-  other: []
+  "parks": [],
+  "busStops": [],
+  "kindergartens": [],
+  "lakes": [],
+  "other": []
 }

@@ -1,12 +1,12 @@
 {
-  name: "Wrocław",
-  origin: {
-    latitude: "1.2",
-    longitude: "1.2"
+  "name": "Wrocław",
+  "origin": {
+    "latitude": "1.2",
+    "longitude": "1.2"
   },
-  parks: [],
-  busStops: [],
-  kindergartens: [],
-  lakes: [],
-  other: []
+  "parks": [],
+  "busStops": [],
+  "kindergartens": [],
+  "lakes": [],
+  "other": []
 }
