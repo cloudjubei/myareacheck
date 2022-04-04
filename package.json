@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start -p $PORT",
+    "lint": "next lint"
   },
   "engines": {
     "node": "14"
@@ -17,10 +18,19 @@
   "dependencies": {
     "date-fns": "^2.11.1",
     "express": "^4.17.3",
+    "mongoose": "^6.0.11",
     "next": "latest",
+    "next-swagger-doc": "^0.2.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "swagger-ui-react": "^4.10.0",
+    "swr": "^1.0.1",
+    "tailwindcss": "^3.0.23"
   },
   "license": "GNU GPLv3",
-  "author": "Kamil Chmurzynski"
+  "author": "Kamil Chmurzynski",
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  }
 }
